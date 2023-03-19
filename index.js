@@ -37,7 +37,7 @@ const storage = multer.diskStorage({
 const upload = multer({ storage });
 
 // FILE ROUTES
-app.post("auth/register", upload.single("picture"));
+app.post("auth/register", upload.single("picture"), register);
 
 // MONGOOSE
 
