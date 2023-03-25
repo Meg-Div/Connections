@@ -59,7 +59,11 @@ export const likePost = async (req, res) => {
 
     isLiked ? post.likes.delete(userId) : post.likes.set(userId, true);
 
-    const updatedPost = await Post.findByIdAndUpdate(id, { likes: post.likes });
+    const updatedPost = await Post.findByIdAndUpdate(
+      id,
+      { likes: post.likes },
+      { new: true }
+    );
     res.status(200).json();
   } catch (error) {
     res.status(404).json({ message: error.message });
