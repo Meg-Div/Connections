@@ -167,9 +167,9 @@ export const posts = [
   {
     _id: new mongoose.Types.ObjectId(),
     userId: userIds[3],
-    firstName: "Whatcha",
-    lastName: "Doing",
-    location: "San Francisco, CA",
+    firstName: "Ken",
+    lastName: "Parks",
+    location: "Salt Lake City, UT",
     description:
       "Another really long random description. This one is longer than the previous one.",
     picturePath: "post2.jpeg",
@@ -190,9 +190,9 @@ export const posts = [
   {
     _id: new mongoose.Types.ObjectId(),
     userId: userIds[4],
-    firstName: "Jane",
-    lastName: "Doe",
-    location: "Utah, CA",
+    firstName: "Norah",
+    lastName: "Wilde-Smith",
+    location: "Minneapolis, MA",
     description:
       "This is the last really long random description. This one is longer than the previous one.",
     picturePath: "post3.jpeg",
@@ -207,15 +207,15 @@ export const posts = [
       "one more random comment",
       "I lied, one more random comment",
       "I lied again, one more random comment",
-      "Why am I doing this?",
+      "Hello!",
       "I'm bored",
     ],
   },
   {
     _id: new mongoose.Types.ObjectId(),
     userId: userIds[5],
-    firstName: "Harvey",
-    lastName: "Dunn",
+    firstName: "Jesse",
+    lastName: "Rodriguez",
     location: "Los Angeles, CA",
     description:
       "This is the last really long random description. This one is longer than the previous one. Man I'm bored. I'm going to keep typing until I run out of things to say.",
@@ -228,18 +228,18 @@ export const posts = [
     ]),
     comments: [
       "I lied again, one more random comment",
-      "Why am I doing this?",
+      "Why hello!",
       "I'm bored",
       "I'm still bored",
-      "All I want to do is play video games",
-      "I'm going to play video games",
+      "Want to go for a walk?",
+      "Can we chat?",
     ],
   },
   {
     _id: new mongoose.Types.ObjectId(),
     userId: userIds[6],
-    firstName: "Carly",
-    lastName: "Vowel",
+    firstName: "Paxton",
+    lastName: "Sweeny",
     location: "Chicago, IL",
     description:
       "Just a short description. I'm tired of typing. I'm going to play video games now.",
@@ -254,16 +254,16 @@ export const posts = [
     comments: [
       "I lied again, one more random comment",
       "Why am I doing this?",
-      "Man I'm bored",
-      "What should I do?",
-      "I'm going to play video games",
+      "Hello",
+      "How are you?",
+      "I'm good!",
     ],
   },
   {
     _id: new mongoose.Types.ObjectId(),
     userId: userIds[7],
-    firstName: "Jessica",
-    lastName: "Dunn",
+    firstName: "Preet",
+    lastName: "Singh",
     location: "Washington, DC",
     description:
       "For the last time, I'm going to play video games now. I'm tired of typing. I'm going to play video games now.",
@@ -275,11 +275,11 @@ export const posts = [
     ]),
 
     comments: [
-      "Can I play video games now?",
-      "No let's actually study",
-      "Never mind, I'm going to play video games",
-      "Stop it.",
-      "Michael, stop it.",
+      "I'm going for a walk.",
+      "Did you go out for lunch today?",
+      "Nevermind.",
+      "Hello!",
+      "How are you?",
     ],
   },
 ];
