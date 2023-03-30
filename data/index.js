@@ -218,7 +218,7 @@ export const posts = [
     lastName: "Rodriguez",
     location: "Los Angeles, CA",
     description:
-      "This is the last really long random description. This one is longer than the previous one. Man I'm bored. I'm going to keep typing until I run out of things to say.",
+      "This is the last really long random description. This one is longer than the previous one. Man I'm bored.",
     picturePath: "post4.jpeg",
     userPicturePath: "p7.jpeg",
     likes: new Map([
@@ -241,8 +241,7 @@ export const posts = [
     firstName: "Paxton",
     lastName: "Sweeny",
     location: "Chicago, IL",
-    description:
-      "Just a short description. I'm tired of typing. I'm going to play video games now.",
+    description: "Just a short description. I'm tired of typing.",
     picturePath: "post5.jpeg",
     userPicturePath: "p8.jpeg",
     likes: new Map([
