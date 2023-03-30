@@ -181,9 +181,9 @@ export const posts = [
       [userIds[2], true],
     ]),
     comments: [
-      "one more random comment",
-      "and another random comment",
-      "no more random comments",
+      "One more random comment",
+      "And another random comment",
+      "No more random comments",
       "I lied, one more random comment",
     ],
   },
@@ -265,7 +265,7 @@ export const posts = [
     lastName: "Singh",
     location: "Washington, DC",
     description:
-      "For the last time, I'm going to play video games now. I'm tired of typing. I'm going to play video games now.",
+      "For the last time, I'm tired of typing. Will you get me some tea?",
     picturePath: "post6.jpeg",
     userPicturePath: "p9.jpeg",
     likes: new Map([
