@@ -29,5 +29,8 @@ export const authSlice = createSlice({
         console.error("No User Friends");
       }
     },
+    setPosts: (state, action) => {
+      state.posts = action.payload.posts;
+    },
   },
 });
