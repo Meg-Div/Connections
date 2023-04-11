@@ -15,11 +15,16 @@ function App() {
   return (
     <div className="app">
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Login />} />
-          <Route path="/home" element={<Home />} />
-          <Route path="/profile/:userId" element={<Profile />} />
-        </Routes>
+        {/* MUI Theme */}
+        <ThemeProvider theme={theme}>
+          {/* CSS Reset */}
+          <CssBaseline />
+          <Routes>
+            <Route path="/" element={<Login />} />
+            <Route path="/home" element={<Home />} />
+            <Route path="/profile/:userId" element={<Profile />} />
+          </Routes>
+        </ThemeProvider>
       </BrowserRouter>
     </div>
   );
